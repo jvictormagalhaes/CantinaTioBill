@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace CantinaDoTioBill.View
 {
-    public partial class Produtos : Form
+    public partial class FrmProdutos : Form
     {
-        public Produtos()
+        public FrmProdutos()
         {
             InitializeComponent();
+        }
+
+        private void bntAdicionar_Click(object sender, EventArgs e)
+        {
+            FrmCadastroProdutos cadastroProdutos = new FrmCadastroProdutos();
+            cadastroProdutos.ShowDialog();
+        }
+
+        private void bntSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
         }
     }
 }

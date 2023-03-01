@@ -1,6 +1,6 @@
 ﻿namespace CantinaDoTioBill
 {
-    partial class FrmVendaBalcao
+    partial class FrmTelaVenda
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@
             this.relatóriosToolStripMenuItem});
             this.MenuInicio.Location = new System.Drawing.Point(0, 0);
             this.MenuInicio.Name = "MenuInicio";
-            this.MenuInicio.Size = new System.Drawing.Size(800, 28);
+            this.MenuInicio.Size = new System.Drawing.Size(464, 28);
             this.MenuInicio.TabIndex = 2;
             this.MenuInicio.Text = "MenuInicio";
             // 
@@ -135,15 +135,14 @@
             this.relatórioDeVendasToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.relatórioDeVendasToolStripMenuItem.Text = "Relatório de Vendas";
             // 
-            // FrmVendaBalcao
+            // FrmTelaVenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(464, 502);
             this.Controls.Add(this.MenuInicio);
-            this.Name = "FrmVendaBalcao";
-            this.Text = "Venda Balcão";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Name = "FrmTelaVenda";
+            this.Text = "Tela de Venda";
             this.MenuInicio.ResumeLayout(false);
             this.MenuInicio.PerformLayout();
             this.ResumeLayout(false);

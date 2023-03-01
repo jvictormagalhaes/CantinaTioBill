@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CantinaDoTioBill
 {
-    public partial class FrmVendaBalcao : Form
+    public partial class FrmTelaVenda : Form
     {
-        public FrmVendaBalcao()
+        public FrmTelaVenda()
         {
             InitializeComponent();
         }

@@ -18,5 +18,9 @@ C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPro
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmCadastroProdutos.resources
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmCadastroUsuario.resources
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmTpQuentinha.resources
-C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmVendaBalcao.resources
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmHome.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.View.FrmClientes.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.View.FrmProdutos.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.View.FrmUsuarios.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.View.FrmVendas.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmTelaVenda.resources

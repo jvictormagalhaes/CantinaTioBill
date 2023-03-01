@@ -26,5 +26,25 @@ namespace CantinaDoTioBill
         {
 
         }
+
+        private void bntCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cbUf_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

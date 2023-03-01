@@ -16,5 +16,30 @@ namespace CantinaDoTioBill
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmCadastroProdutos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlStatus_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bntCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -56,6 +56,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="View\Cadastro de Produtos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,13 +191,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\novo6078200.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\6078200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botaoProduto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botaoCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botãoUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vb.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

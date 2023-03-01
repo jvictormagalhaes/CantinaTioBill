@@ -26,5 +26,21 @@ namespace CantinaDoTioBill
         {
 
         }
+
+        private void bntCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnAdicionar_Click(object sender, EventArgs e)
+        {
+            FrmCadastroUsuario cadastroUsuario = new FrmCadastroUsuario();
+            cadastroUsuario.ShowDialog();
+        }
+
+        private void rbStatusInativo_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

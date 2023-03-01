@@ -1,6 +1,6 @@
 ﻿namespace CantinaDoTioBill.View
 {
-    partial class Vendas
+    partial class FrmVendas
     {
         /// <summary>
         /// Required designer variable.
@@ -41,8 +41,9 @@
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioDeVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.bntAdicionar = new System.Windows.Forms.Button();
             this.bntSair = new System.Windows.Forms.Button();
+            this.bntAdicionar = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.MenuInicio.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -144,15 +145,28 @@
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 88F));
-            this.tableLayoutPanel1.Controls.Add(this.bntAdicionar, 0, 0);
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
             this.tableLayoutPanel1.Controls.Add(this.bntSair, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(617, 405);
+            this.tableLayoutPanel1.Controls.Add(this.bntAdicionar, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(599, 396);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(171, 33);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(189, 42);
             this.tableLayoutPanel1.TabIndex = 52;
+            // 
+            // bntSair
+            // 
+            this.bntSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bntSair.Location = new System.Drawing.Point(89, 3);
+            this.bntSair.Name = "bntSair";
+            this.bntSair.Size = new System.Drawing.Size(97, 36);
+            this.bntSair.TabIndex = 1;
+            this.bntSair.Text = "Sair";
+            this.bntSair.UseVisualStyleBackColor = true;
+            this.bntSair.Click += new System.EventHandler(this.bntSair_Click);
             // 
             // bntAdicionar
             // 
@@ -161,32 +175,35 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.bntAdicionar.Location = new System.Drawing.Point(3, 3);
             this.bntAdicionar.Name = "bntAdicionar";
-            this.bntAdicionar.Size = new System.Drawing.Size(77, 27);
+            this.bntAdicionar.Size = new System.Drawing.Size(80, 36);
             this.bntAdicionar.TabIndex = 0;
             this.bntAdicionar.Text = "Adicionar";
             this.bntAdicionar.UseVisualStyleBackColor = true;
+            this.bntAdicionar.Click += new System.EventHandler(this.bntAdicionar_Click);
             // 
-            // bntSair
+            // listView1
             // 
-            this.bntSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.bntSair.Location = new System.Drawing.Point(86, 3);
-            this.bntSair.Name = "bntSair";
-            this.bntSair.Size = new System.Drawing.Size(82, 27);
-            this.bntSair.TabIndex = 1;
-            this.bntSair.Text = "Sair";
-            this.bntSair.UseVisualStyleBackColor = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(12, 31);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(776, 359);
+            this.listView1.TabIndex = 53;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // Vendas
+            // FrmVendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.MenuInicio);
-            this.Name = "Vendas";
+            this.Name = "FrmVendas";
             this.Text = "Vendas";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MenuInicio.ResumeLayout(false);
             this.MenuInicio.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -212,5 +229,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button bntAdicionar;
         private System.Windows.Forms.Button bntSair;
+        private System.Windows.Forms.ListView listView1;
     }
 }
