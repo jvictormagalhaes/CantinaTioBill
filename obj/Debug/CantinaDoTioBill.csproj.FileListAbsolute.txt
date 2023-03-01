@@ -13,6 +13,10 @@ C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPro
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\bin\Debug\EntityFramework.xml
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmInicio.resources
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.csproj.CopyComplete
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmCadastroCliente.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmCadastroProdutos.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmCadastroUsuario.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmTpQuentinha.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmVendaBalcao.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmHome.resources

@@ -1,6 +1,6 @@
 ﻿namespace CantinaDoTioBill
 {
-    partial class FrmInicio
+    partial class FrmHome
     {
         /// <summary>
         /// Required designer variable.
@@ -39,6 +39,8 @@
             this.vendaBalcãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioDeVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.vendasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuInicio.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,6 +73,7 @@
             this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
             this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.usuáriosToolStripMenuItem.Text = "Cadastro de Usuário";
+            this.usuáriosToolStripMenuItem.Click += new System.EventHandler(this.usuáriosToolStripMenuItem_Click);
             // 
             // cadastroToolStripMenuItem1
             // 
@@ -87,12 +90,14 @@
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
             this.clientesToolStripMenuItem.Text = "Clientes";
+            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
             this.produtosToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
             this.produtosToolStripMenuItem.Text = "Produtos";
+            this.produtosToolStripMenuItem.Click += new System.EventHandler(this.produtosToolStripMenuItem_Click);
             // 
             // quentinhasToolStripMenuItem
             // 
@@ -104,6 +109,7 @@
             // vendasToolStripMenuItem
             // 
             this.vendasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.vendasToolStripMenuItem1,
             this.vendaBalcãoToolStripMenuItem});
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
             this.vendasToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
@@ -112,8 +118,9 @@
             // vendaBalcãoToolStripMenuItem
             // 
             this.vendaBalcãoToolStripMenuItem.Name = "vendaBalcãoToolStripMenuItem";
-            this.vendaBalcãoToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
+            this.vendaBalcãoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.vendaBalcãoToolStripMenuItem.Text = "Venda Balcão";
+            this.vendaBalcãoToolStripMenuItem.Click += new System.EventHandler(this.vendaBalcãoToolStripMenuItem_Click);
             // 
             // relatóriosToolStripMenuItem
             // 
@@ -128,19 +135,41 @@
             this.relatórioDeVendasToolStripMenuItem.Name = "relatórioDeVendasToolStripMenuItem";
             this.relatórioDeVendasToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.relatórioDeVendasToolStripMenuItem.Text = "Relatório de Vendas";
+            this.relatórioDeVendasToolStripMenuItem.Click += new System.EventHandler(this.relatórioDeVendasToolStripMenuItem_Click);
             // 
-            // FrmInicio
+            // btnSair
+            // 
+            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSair.Location = new System.Drawing.Point(806, 481);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(96, 30);
+            this.btnSair.TabIndex = 2;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // vendasToolStripMenuItem1
+            // 
+            this.vendasToolStripMenuItem1.Name = "vendasToolStripMenuItem1";
+            this.vendasToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.vendasToolStripMenuItem1.Text = "Vendas";
+            this.vendasToolStripMenuItem1.Click += new System.EventHandler(this.vendasToolStripMenuItem1_Click);
+            // 
+            // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
             this.ClientSize = new System.Drawing.Size(914, 538);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.MenuInicio);
-            this.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.MenuInicio;
-            this.Name = "FrmInicio";
+            this.Name = "FrmHome";
             this.Text = "Tela de Inicio";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmInicio_Load);
             this.MenuInicio.ResumeLayout(false);
             this.MenuInicio.PerformLayout();
@@ -161,5 +190,7 @@
         private System.Windows.Forms.ToolStripMenuItem quentinhasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem vendaBalcãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatórioDeVendasToolStripMenuItem;
+        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.ToolStripMenuItem vendasToolStripMenuItem1;
     }
 }

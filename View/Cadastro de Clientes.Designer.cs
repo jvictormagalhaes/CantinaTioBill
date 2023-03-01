@@ -71,9 +71,11 @@
             this.cbUf = new System.Windows.Forms.ComboBox();
             this.txtObservacoes = new System.Windows.Forms.TextBox();
             this.lblObservacoes = new System.Windows.Forms.Label();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
+            this.bntCancelar = new System.Windows.Forms.Button();
+            this.bntSalvar = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.MenuInicio.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuInicio
@@ -441,7 +443,7 @@
             this.txtObservacoes.Location = new System.Drawing.Point(9, 254);
             this.txtObservacoes.Multiline = true;
             this.txtObservacoes.Name = "txtObservacoes";
-            this.txtObservacoes.Size = new System.Drawing.Size(862, 77);
+            this.txtObservacoes.Size = new System.Drawing.Size(862, 99);
             this.txtObservacoes.TabIndex = 45;
             // 
             // lblObservacoes
@@ -453,35 +455,51 @@
             this.lblObservacoes.TabIndex = 46;
             this.lblObservacoes.Text = "Observações";
             // 
-            // btnSalvar
+            // bntCancelar
             // 
-            this.btnSalvar.AutoSize = true;
-            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalvar.Location = new System.Drawing.Point(697, 452);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(84, 29);
-            this.btnSalvar.TabIndex = 48;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.bntCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bntCancelar.Location = new System.Drawing.Point(86, 3);
+            this.bntCancelar.Name = "bntCancelar";
+            this.bntCancelar.Size = new System.Drawing.Size(82, 27);
+            this.bntCancelar.TabIndex = 1;
+            this.bntCancelar.Text = "Cancelar";
+            this.bntCancelar.UseVisualStyleBackColor = true;
             // 
-            // btnCancelar
+            // bntSalvar
             // 
-            this.btnCancelar.AutoSize = true;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelar.Location = new System.Drawing.Point(787, 452);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(84, 29);
-            this.btnCancelar.TabIndex = 49;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.bntSalvar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bntSalvar.Location = new System.Drawing.Point(3, 3);
+            this.bntSalvar.Name = "bntSalvar";
+            this.bntSalvar.Size = new System.Drawing.Size(77, 27);
+            this.bntSalvar.TabIndex = 0;
+            this.bntSalvar.Text = "Salvar";
+            this.bntSalvar.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 88F));
+            this.tableLayoutPanel1.Controls.Add(this.bntSalvar, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.bntCancelar, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(700, 479);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(171, 33);
+            this.tableLayoutPanel1.TabIndex = 50;
             // 
             // FrmCadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 524);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblObservacoes);
             this.Controls.Add(this.txtObservacoes);
             this.Controls.Add(this.cbUf);
@@ -521,9 +539,11 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Cliente";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmCadastroCliente_Load);
             this.MenuInicio.ResumeLayout(false);
             this.MenuInicio.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -574,7 +594,8 @@
         private System.Windows.Forms.ComboBox cbUf;
         private System.Windows.Forms.TextBox txtObservacoes;
         private System.Windows.Forms.Label lblObservacoes;
-        private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button bntCancelar;
+        private System.Windows.Forms.Button bntSalvar;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
