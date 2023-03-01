@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace CantinaDoTioBill
 {
-    public partial class FrmCadastroCliente : Form
+    public partial class FrmTpQuentinha : Form
     {
-        public FrmCadastroCliente()
+        public FrmTpQuentinha()
         {
             InitializeComponent();
-        }
-
-        private void lblNome_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmCadastroCliente_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

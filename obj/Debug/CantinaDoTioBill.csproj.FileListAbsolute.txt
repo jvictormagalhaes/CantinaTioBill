@@ -15,4 +15,4 @@ C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPro
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmInicio.resources
 C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.csproj.CopyComplete
-C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmCadastro.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Curso C# Completo\WinForms\PrimeiroPrograma\CantinaDoTioBill\obj\Debug\CantinaDoTioBill.FrmCadastroCliente.resources

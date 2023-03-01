@@ -37,9 +37,9 @@
             // 
             // BtnEntrar
             // 
-            this.BtnEntrar.Location = new System.Drawing.Point(376, 248);
+            this.BtnEntrar.Location = new System.Drawing.Point(367, 248);
             this.BtnEntrar.Name = "BtnEntrar";
-            this.BtnEntrar.Size = new System.Drawing.Size(75, 23);
+            this.BtnEntrar.Size = new System.Drawing.Size(75, 24);
             this.BtnEntrar.TabIndex = 0;
             this.BtnEntrar.Text = "Entrar";
             this.BtnEntrar.UseVisualStyleBackColor = true;
@@ -49,7 +49,7 @@
             // 
             this.LblUsuario.AutoSize = true;
             this.LblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblUsuario.Location = new System.Drawing.Point(248, 171);
+            this.LblUsuario.Location = new System.Drawing.Point(239, 172);
             this.LblUsuario.Name = "LblUsuario";
             this.LblUsuario.Size = new System.Drawing.Size(72, 20);
             this.LblUsuario.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(259, 207);
+            this.label2.Location = new System.Drawing.Point(250, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 20);
             this.label2.TabIndex = 2;
@@ -68,14 +68,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(326, 169);
+            this.textBox1.Location = new System.Drawing.Point(317, 170);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(176, 22);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(326, 207);
+            this.textBox2.Location = new System.Drawing.Point(317, 208);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(176, 22);
             this.textBox2.TabIndex = 4;

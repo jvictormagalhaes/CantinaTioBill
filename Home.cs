@@ -26,5 +26,10 @@ namespace CantinaDoTioBill
         {
 
         }
+
+        private void FrmInicio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

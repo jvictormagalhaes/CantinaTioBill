@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace CantinaDoTioBill
 {
-    public partial class FrmCadastroCliente : Form
+    public partial class FrmCadastroUsuario : Form
     {
-        public FrmCadastroCliente()
+        public FrmCadastroUsuario()
         {
             InitializeComponent();
         }
 
-        private void lblNome_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void FrmCadastroCliente_Load(object sender, EventArgs e)
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -56,6 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastro de Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de Produtos.Designer.cs">
+      <DependentUpon>Cadastro de Produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de Usuários.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de Usuários.Designer.cs">
+      <DependentUpon>Cadastro de Usuários.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +88,30 @@
     <Compile Include="Tela de Cadastro.Designer.cs">
       <DependentUpon>Tela de Cadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tipo de Quentinha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tipo de Quentinha.Designer.cs">
+      <DependentUpon>Tipo de Quentinha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venda Balcão.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venda Balcão.Designer.cs">
+      <DependentUpon>Venda Balcão.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cadastro de Produtos.resx">
+      <DependentUpon>Cadastro de Produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro de Usuários.resx">
+      <DependentUpon>Cadastro de Usuários.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +131,12 @@
     <EmbeddedResource Include="Tela de Cadastro.resx">
       <DependentUpon>Tela de Cadastro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tipo de Quentinha.resx">
+      <DependentUpon>Tipo de Quentinha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venda Balcão.resx">
+      <DependentUpon>Venda Balcão.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -109,8 +151,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\novo6078200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6078200.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
