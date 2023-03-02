@@ -1,11 +1,8 @@
-﻿using System;
+﻿using CantinaDoTioBill.Models;
+using CantinaDoTioBill.View;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CantinaDoTioBill
@@ -34,11 +31,15 @@ namespace CantinaDoTioBill
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
-            FrmCadastroUsuario cadastroUsuario = new FrmCadastroUsuario();
-            cadastroUsuario.ShowDialog();
+        
         }
 
         private void rbStatusInativo_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmCadastroUsuario_FormClosed(object sender, FormClosedEventArgs e)
         {
 
         }

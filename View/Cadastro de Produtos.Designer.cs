@@ -43,9 +43,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.bntCancelar = new System.Windows.Forms.Button();
-            this.pnId = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.lblResgistroId = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -66,10 +64,12 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.lblResgistroId = new System.Windows.Forms.Label();
+            this.pnId = new System.Windows.Forms.Panel();
             this.MenuInicio.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.pnId.SuspendLayout();
             this.pnlStatus.SuspendLayout();
+            this.pnId.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuInicio
@@ -83,7 +83,7 @@
             this.relatóriosToolStripMenuItem});
             this.MenuInicio.Location = new System.Drawing.Point(0, 0);
             this.MenuInicio.Name = "MenuInicio";
-            this.MenuInicio.Size = new System.Drawing.Size(984, 30);
+            this.MenuInicio.Size = new System.Drawing.Size(984, 28);
             this.MenuInicio.TabIndex = 25;
             this.MenuInicio.Text = "MenuInicio";
             // 
@@ -92,7 +92,7 @@
             this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usuáriosToolStripMenuItem});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(73, 26);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.cadastroToolStripMenuItem.Text = "Usuário";
             // 
             // usuáriosToolStripMenuItem
@@ -108,7 +108,7 @@
             this.produtosToolStripMenuItem,
             this.quentinhasToolStripMenuItem});
             this.cadastroToolStripMenuItem1.Name = "cadastroToolStripMenuItem1";
-            this.cadastroToolStripMenuItem1.Size = new System.Drawing.Size(82, 26);
+            this.cadastroToolStripMenuItem1.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem1.Text = "Cadastro";
             // 
             // clientesToolStripMenuItem
@@ -135,7 +135,7 @@
             this.vendasToolStripMenuItem1,
             this.vendaBalcãoToolStripMenuItem});
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
-            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
+            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.vendasToolStripMenuItem.Text = "Vendas";
             // 
             // vendasToolStripMenuItem1
@@ -155,7 +155,7 @@
             this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.relatórioDeVendasToolStripMenuItem});
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 26);
+            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // relatórioDeVendasToolStripMenuItem
@@ -204,16 +204,6 @@
             this.bntCancelar.UseVisualStyleBackColor = true;
             this.bntCancelar.Click += new System.EventHandler(this.bntCancelar_Click);
             // 
-            // pnId
-            // 
-            this.pnId.BackColor = System.Drawing.Color.LightBlue;
-            this.pnId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnId.Controls.Add(this.lblResgistroId);
-            this.pnId.Location = new System.Drawing.Point(15, 54);
-            this.pnId.Name = "pnId";
-            this.pnId.Size = new System.Drawing.Size(130, 25);
-            this.pnId.TabIndex = 54;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -223,16 +213,6 @@
             this.label5.Size = new System.Drawing.Size(87, 16);
             this.label5.TabIndex = 53;
             this.label5.Text = "Registro Nº";
-            // 
-            // lblResgistroId
-            // 
-            this.lblResgistroId.AutoSize = true;
-            this.lblResgistroId.Location = new System.Drawing.Point(32, 3);
-            this.lblResgistroId.Name = "lblResgistroId";
-            this.lblResgistroId.Size = new System.Drawing.Size(76, 16);
-            this.lblResgistroId.TabIndex = 0;
-            this.lblResgistroId.Text = "ResgistroId";
-            this.lblResgistroId.Visible = false;
             // 
             // label1
             // 
@@ -439,6 +419,26 @@
             this.label10.TabIndex = 72;
             this.label10.Text = "Observação";
             // 
+            // lblResgistroId
+            // 
+            this.lblResgistroId.AutoSize = true;
+            this.lblResgistroId.Location = new System.Drawing.Point(20, 4);
+            this.lblResgistroId.Name = "lblResgistroId";
+            this.lblResgistroId.Size = new System.Drawing.Size(76, 16);
+            this.lblResgistroId.TabIndex = 0;
+            this.lblResgistroId.Text = "ResgistroId";
+            this.lblResgistroId.Visible = false;
+            // 
+            // pnId
+            // 
+            this.pnId.BackColor = System.Drawing.Color.LightBlue;
+            this.pnId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnId.Controls.Add(this.lblResgistroId);
+            this.pnId.Location = new System.Drawing.Point(15, 54);
+            this.pnId.Name = "pnId";
+            this.pnId.Size = new System.Drawing.Size(130, 25);
+            this.pnId.TabIndex = 54;
+            // 
             // FrmCadastroProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -473,10 +473,10 @@
             this.MenuInicio.ResumeLayout(false);
             this.MenuInicio.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.pnId.ResumeLayout(false);
-            this.pnId.PerformLayout();
             this.pnlStatus.ResumeLayout(false);
             this.pnlStatus.PerformLayout();
+            this.pnId.ResumeLayout(false);
+            this.pnId.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -498,8 +498,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button bntCancelar;
-        private System.Windows.Forms.Panel pnId;
-        private System.Windows.Forms.Label lblResgistroId;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
@@ -521,5 +519,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblResgistroId;
+        private System.Windows.Forms.Panel pnId;
     }
 }

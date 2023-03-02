@@ -6,21 +6,27 @@ using System.Threading.Tasks;
 
 namespace CantinaDoTioBill.Models
 {
-    internal class Usuario
+    public class Usuario
     {
+        int i = 0;
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Username { get; set; }
         public string Senha { get; set; }
         public bool Status { get; set; }
 
-        public Usuario(int id, string nome, string username, string senha, bool status)
+        public Usuario(string nome, string username, string senha, bool status)
         {
-            Id = id;
+            Id = i++;
             Nome = nome;
             Username = username;
             Senha = senha;
             Status = status;
+        }
+
+        public Usuario()
+        {
+
         }
     }
 }

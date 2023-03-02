@@ -53,12 +53,10 @@
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.lblRegistro = new System.Windows.Forms.Label();
-            this.pnRegistroId = new System.Windows.Forms.Panel();
-            this.lblRegistroId = new System.Windows.Forms.Label();
+            this.txtRegistroId = new System.Windows.Forms.TextBox();
             this.MenuInicio.SuspendLayout();
             this.pnlStatus.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.pnRegistroId.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -169,6 +167,7 @@
             // 
             // txtNome
             // 
+            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNome.Location = new System.Drawing.Point(148, 54);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(267, 22);
@@ -176,6 +175,7 @@
             // 
             // txtUsername
             // 
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUsername.Location = new System.Drawing.Point(421, 54);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(184, 22);
@@ -183,6 +183,7 @@
             // 
             // txtSenha
             // 
+            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSenha.Location = new System.Drawing.Point(611, 54);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(174, 22);
@@ -296,32 +297,21 @@
             this.lblRegistro.TabIndex = 28;
             this.lblRegistro.Text = "Registro Nº";
             // 
-            // pnRegistroId
+            // txtRegistroId
             // 
-            this.pnRegistroId.BackColor = System.Drawing.Color.LightBlue;
-            this.pnRegistroId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnRegistroId.Controls.Add(this.lblRegistroId);
-            this.pnRegistroId.Location = new System.Drawing.Point(12, 51);
-            this.pnRegistroId.Name = "pnRegistroId";
-            this.pnRegistroId.Size = new System.Drawing.Size(130, 25);
-            this.pnRegistroId.TabIndex = 29;
-            // 
-            // lblRegistroId
-            // 
-            this.lblRegistroId.AutoSize = true;
-            this.lblRegistroId.Location = new System.Drawing.Point(19, 4);
-            this.lblRegistroId.Name = "lblRegistroId";
-            this.lblRegistroId.Size = new System.Drawing.Size(83, 16);
-            this.lblRegistroId.TabIndex = 0;
-            this.lblRegistroId.Text = "lblRegistroId";
-            this.lblRegistroId.Visible = false;
+            this.txtRegistroId.BackColor = System.Drawing.Color.Silver;
+            this.txtRegistroId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtRegistroId.Location = new System.Drawing.Point(12, 54);
+            this.txtRegistroId.Name = "txtRegistroId";
+            this.txtRegistroId.Size = new System.Drawing.Size(130, 22);
+            this.txtRegistroId.TabIndex = 29;
             // 
             // FrmCadastroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pnRegistroId);
+            this.Controls.Add(this.txtRegistroId);
             this.Controls.Add(this.lblRegistro);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label4);
@@ -338,13 +328,12 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Cadastro de Usuários";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmCadastroUsuario_FormClosed);
             this.MenuInicio.ResumeLayout(false);
             this.MenuInicio.PerformLayout();
             this.pnlStatus.ResumeLayout(false);
             this.pnlStatus.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.pnRegistroId.ResumeLayout(false);
-            this.pnRegistroId.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -376,7 +365,6 @@
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lblRegistro;
-        private System.Windows.Forms.Panel pnRegistroId;
-        private System.Windows.Forms.Label lblRegistroId;
+        private System.Windows.Forms.TextBox txtRegistroId;
     }
 }

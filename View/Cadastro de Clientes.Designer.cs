@@ -74,9 +74,9 @@
             this.bntCancelar = new System.Windows.Forms.Button();
             this.bntSalvar = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pnResgistroId = new System.Windows.Forms.Panel();
             this.lblRegistro = new System.Windows.Forms.Label();
             this.lblResgistroId = new System.Windows.Forms.Label();
+            this.pnResgistroId = new System.Windows.Forms.Panel();
             this.MenuInicio.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.pnResgistroId.SuspendLayout();
@@ -102,7 +102,7 @@
             this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usuáriosToolStripMenuItem});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(73, 26);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.cadastroToolStripMenuItem.Text = "Usuário";
             // 
             // usuáriosToolStripMenuItem
@@ -118,7 +118,7 @@
             this.produtosToolStripMenuItem,
             this.quentinhasToolStripMenuItem});
             this.cadastroToolStripMenuItem1.Name = "cadastroToolStripMenuItem1";
-            this.cadastroToolStripMenuItem1.Size = new System.Drawing.Size(82, 26);
+            this.cadastroToolStripMenuItem1.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem1.Text = "Cadastro";
             // 
             // clientesToolStripMenuItem
@@ -144,7 +144,7 @@
             this.vendasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.vendaBalcãoToolStripMenuItem});
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
-            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
+            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.vendasToolStripMenuItem.Text = "Vendas";
             // 
             // vendaBalcãoToolStripMenuItem
@@ -158,7 +158,7 @@
             this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.relatórioDeVendasToolStripMenuItem});
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 26);
+            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // relatórioDeVendasToolStripMenuItem
@@ -515,16 +515,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(171, 33);
             this.tableLayoutPanel1.TabIndex = 50;
             // 
-            // pnResgistroId
-            // 
-            this.pnResgistroId.BackColor = System.Drawing.Color.LightBlue;
-            this.pnResgistroId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnResgistroId.Controls.Add(this.lblResgistroId);
-            this.pnResgistroId.Location = new System.Drawing.Point(12, 51);
-            this.pnResgistroId.Name = "pnResgistroId";
-            this.pnResgistroId.Size = new System.Drawing.Size(130, 25);
-            this.pnResgistroId.TabIndex = 52;
-            // 
             // lblRegistro
             // 
             this.lblRegistro.AutoSize = true;
@@ -545,6 +535,16 @@
             this.lblResgistroId.TabIndex = 1;
             this.lblResgistroId.Text = "ResgistroId";
             this.lblResgistroId.Visible = false;
+            // 
+            // pnResgistroId
+            // 
+            this.pnResgistroId.BackColor = System.Drawing.Color.LightBlue;
+            this.pnResgistroId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnResgistroId.Controls.Add(this.lblResgistroId);
+            this.pnResgistroId.Location = new System.Drawing.Point(12, 51);
+            this.pnResgistroId.Name = "pnResgistroId";
+            this.pnResgistroId.Size = new System.Drawing.Size(130, 25);
+            this.pnResgistroId.TabIndex = 52;
             // 
             // FrmCadastroCliente
             // 
@@ -653,8 +653,8 @@
         private System.Windows.Forms.Button bntCancelar;
         private System.Windows.Forms.Button bntSalvar;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel pnResgistroId;
         private System.Windows.Forms.Label lblRegistro;
         private System.Windows.Forms.Label lblResgistroId;
+        private System.Windows.Forms.Panel pnResgistroId;
     }
 }

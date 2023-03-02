@@ -29,8 +29,10 @@ namespace CantinaDoTioBill.View
 
         private void bntAdicionar_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FrmCadastroCliente cadastroCliente = new FrmCadastroCliente();
             cadastroCliente.ShowDialog();
+            this.Show();
         }
 
         private void bntSair_Click(object sender, EventArgs e)

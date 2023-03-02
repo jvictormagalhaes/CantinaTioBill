@@ -45,6 +45,15 @@
             this.bntSair = new System.Windows.Forms.Button();
             this.bntAdicionar = new System.Windows.Forms.Button();
             this.lvUsuario = new System.Windows.Forms.ListView();
+            this.clnId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnStatus = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnDescricao = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnCodBarras = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnValCompra = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnValVenda = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnUnidade = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnReferencia = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnObservacao = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.MenuInicio.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -148,9 +157,9 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 92F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.bntSair, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.bntAdicionar, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button1, 1, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(518, 396);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
@@ -201,12 +210,66 @@
             this.lvUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.lvUsuario.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.clnId,
+            this.clnStatus,
+            this.clnDescricao,
+            this.clnCodBarras,
+            this.clnValCompra,
+            this.clnValVenda,
+            this.clnUnidade,
+            this.clnReferencia,
+            this.clnObservacao});
+            this.lvUsuario.FullRowSelect = true;
             this.lvUsuario.HideSelection = false;
-            this.lvUsuario.Location = new System.Drawing.Point(12, 50);
+            this.lvUsuario.Location = new System.Drawing.Point(12, 31);
+            this.lvUsuario.MultiSelect = false;
             this.lvUsuario.Name = "lvUsuario";
-            this.lvUsuario.Size = new System.Drawing.Size(776, 340);
+            this.lvUsuario.Size = new System.Drawing.Size(773, 359);
             this.lvUsuario.TabIndex = 56;
             this.lvUsuario.UseCompatibleStateImageBehavior = false;
+            this.lvUsuario.View = System.Windows.Forms.View.Details;
+            // 
+            // clnId
+            // 
+            this.clnId.Text = "ID";
+            this.clnId.Width = 40;
+            // 
+            // clnStatus
+            // 
+            this.clnStatus.Text = "Status";
+            this.clnStatus.Width = 56;
+            // 
+            // clnDescricao
+            // 
+            this.clnDescricao.Text = "Descrição";
+            this.clnDescricao.Width = 250;
+            // 
+            // clnCodBarras
+            // 
+            this.clnCodBarras.Text = "Código de Barras";
+            this.clnCodBarras.Width = 139;
+            // 
+            // clnValCompra
+            // 
+            this.clnValCompra.Text = "Val. Compra";
+            this.clnValCompra.Width = 111;
+            // 
+            // clnValVenda
+            // 
+            this.clnValVenda.Text = "Val. Vendas";
+            // 
+            // clnUnidade
+            // 
+            this.clnUnidade.Text = "Unidade";
+            // 
+            // clnReferencia
+            // 
+            this.clnReferencia.Text = "Referência";
+            // 
+            // clnObservacao
+            // 
+            this.clnObservacao.Text = "Observação";
             // 
             // FrmProdutos
             // 
@@ -246,5 +309,14 @@
         private System.Windows.Forms.Button bntSair;
         private System.Windows.Forms.Button bntAdicionar;
         private System.Windows.Forms.ListView lvUsuario;
+        private System.Windows.Forms.ColumnHeader clnId;
+        private System.Windows.Forms.ColumnHeader clnStatus;
+        private System.Windows.Forms.ColumnHeader clnDescricao;
+        private System.Windows.Forms.ColumnHeader clnCodBarras;
+        private System.Windows.Forms.ColumnHeader clnValCompra;
+        private System.Windows.Forms.ColumnHeader clnValVenda;
+        private System.Windows.Forms.ColumnHeader clnUnidade;
+        private System.Windows.Forms.ColumnHeader clnReferencia;
+        private System.Windows.Forms.ColumnHeader clnObservacao;
     }
 }

@@ -19,8 +19,10 @@ namespace CantinaDoTioBill.View
 
         private void bntAdicionar_Click(object sender, EventArgs e)
         {
+            this.Hide();
            FrmTelaVenda vendaBalcao = new FrmTelaVenda();
             vendaBalcao.ShowDialog();
+            this.Show();
         }
 
         private void bntSair_Click(object sender, EventArgs e)
